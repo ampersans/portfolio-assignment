@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Projects - Tristan Burditt</title>
+        <link rel="stylesheet" href="css/style.css">
+        <link rel="stylesheet" href="css/tablet.css">
+        <link rel="stylesheet" href="css/mobile.css">
+    </head>
+
+    <body>
+        <h1> Tristan Burditt </h1>
+
+        <nav aria-label="Navigation">
+            <a href="index.html">Home</a>
+            <a href="about.html">About Me</a>
+            <a href="projects.html">Projects</a>
+            <a href="contact.html">Contact Form</a>
+        </nav>
+
+        <main>
+            <section class="contact">
+                <h2>Contact Me</h2>
+                <form action="#" method="post">
+
+                    <label for="name">Name</label>
+                    <input type="text" id="name" name="name" required>
+                    
+                    <label for="email">Email</label>
+                    <input type="email" id="email" name="email" required>
+                    
+                    <label for="phone">Cell Phone</label>
+                    <input type="tel" id="phone" name="phone" 
+                        pattern="[0-9()-+ ](7,20)"
+                        required>
+                    
+                    <label for="comments">Comments</label>
+                    <textarea id="comments" name="comments" rows="6" required></textarea>
+
+                    <button type="submit">Submit</button>
+
+                </form>
+            </section>
+        </main>
+        <footer>
+            <p>Email Me! tristan.burditt@ontariotechu.net</p>
+            <p>&copy; Tristan Burditt</p>
+        </footer>
+    </body>
+</html>
+

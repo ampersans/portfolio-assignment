@@ -1,5 +1,12 @@
+<!--
+Tristan Burditt - 100982847
+Assignment 1
+Web & Script Programming
+about.html
+-->
 <!DOCTYPE html>
 <html lang="en">
+    <!--same head tag establishing site charteristics-->
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -10,36 +17,46 @@
     </head>
 
     <body>
-        <h1> Tristan Burditt </h1>
+        <!--same header/navbar containing page redirects-->
+        <header>
+            <h1> Tristan Burditt </h1>
+            <p>Networking and IT Security Student</p>
 
-        <nav aria-label="Navigation">
-            <a href="index.html">Home</a>
-            <a href="about.html">About Me</a>
-            <a href="projects.html">Projects</a>
-            <a href="contact.html">Contact Form</a>
-        </nav>
+            <nav aria-label="Navigation">
+                <a href="index.html">Home</a>
+                <a href="about.html">About Me</a>
+                <a href="projects.html">Projects</a>
+                <a href="contact.html">Contact Me</a>
+            </nav>
+        </header>
 
         <main>
             <section class="about">
-                <h2>About Me</h2>
+                <!--establishing banner-->
+                <div class="projects-banner">
+                    <h2>About Me</h2>
+                </div>
 
-                <img src="content/picture link" alt="Photo of Me!" class="profile-image">
+                <img src="content/image.JPG" alt="Photo of Me!" class="profile-image">
 
                 <p>
-                    about me quick bio 
+                    I grew up in Oshawa, going to school in Oshawa my whole life. Attending O'Neill CVI in the Instrumental Performing Arts program and playing 
+                    Euphonium and Bass Trombone, in concert and jazz bands. Now post-High School still playing in local brass bands. Holding a lifelong love for technology, attending technology clubs and classes beginning in elementary school through to high school. 
+                    Now attending Ontario Tech University, in the Networking and IT Security program to gain the knowledge to enter into the tech workforce.
 
                 </p>
 
                 <h3>Introduction Video</h3>
-                <video controls poster="content/video-poster" class="intro-video">
+                <video controls poster="content/video-poster.JPG" class="intro-video">
                     <source src="content/intro.mp4" type="video/mp4">
                     Your browser does not support HTML5 Video.
                 </video>
             </section>
         </main>
+        <!--same footer across the site containing email and copyright-->
         <footer>
             <p>Email Me! tristan.burditt@ontariotechu.net</p>
-            <p>&copy; Tristan Burditt</p>
+            <p>&copy; 2026 Tristan Burditt</p>
         </footer>
     </body>
 </html>

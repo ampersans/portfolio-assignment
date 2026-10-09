@@ -1,5 +1,12 @@
+<!--
+Tristan Burditt - 100982847
+Assignment 1
+Web & Script Programming
+contact.html
+-->
 <!DOCTYPE html>
 <html lang="en">
+    <!--same head tag establishing site charteristics-->
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -10,31 +17,45 @@
     </head>
 
     <body>
-        <h1> Tristan Burditt </h1>
+        <!--same header/navbar containing page redirects-->
+        <header>
+            <h1> Tristan Burditt </h1>
+            <p>Networking and IT Security Student</p>
 
-        <nav aria-label="Navigation">
-            <a href="index.html">Home</a>
-            <a href="about.html">About Me</a>
-            <a href="projects.html">Projects</a>
-            <a href="contact.html">Contact Form</a>
-        </nav>
+            <nav aria-label="Navigation">
+                <a href="index.html">Home</a>
+                <a href="about.html">About Me</a>
+                <a href="projects.html">Projects</a>
+                <a href="contact.html">Contact Me</a>
+            </nav>
+        </header>
 
         <main>
+            
             <section class="contact">
-                <h2>Contact Me</h2>
-                <form action="#" method="post">
 
+                <!--establishing banner-->
+                <div class="projects-banner">
+                    <h2>Contact Me</h2>
+                </div>
+                <!--creating form-->
+                    <form action="#" method="post">
+
+                    <!--name input area-->   
                     <label for="name">Name</label>
                     <input type="text" id="name" name="name" required>
                     
+                    <!--email input area-->   
                     <label for="email">Email</label>
                     <input type="email" id="email" name="email" required>
                     
+                    <!--phone input area-->   
                     <label for="phone">Cell Phone</label>
                     <input type="tel" id="phone" name="phone" 
                         pattern="[0-9()-+ ](7,20)"
                         required>
                     
+                    <!--comments input area-->   
                     <label for="comments">Comments</label>
                     <textarea id="comments" name="comments" rows="6" required></textarea>
 
@@ -43,9 +64,10 @@
                 </form>
             </section>
         </main>
+        <!--same footer across the site containing email and copyright-->
         <footer>
             <p>Email Me! tristan.burditt@ontariotechu.net</p>
-            <p>&copy; Tristan Burditt</p>
+            <p>&copy; 2026 Tristan Burditt</p>
         </footer>
     </body>
 </html>
